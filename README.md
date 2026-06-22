@@ -1,7 +1,6 @@
 # OpinAI - SaaS Feedback Analytics Powered by Generative AI
 
 <!-- Badges -->
-[![Java CI with Maven](https://github.com/<username>/<repo-name>/actions/workflows/backend.yml/badge.svg)](https://github.com/<username>/<repo-name>/actions/workflows/backend.yml)
 ![Java 21](https://img.shields.io/badge/Java-21-orange?style=flat&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.0-brightgreen?style=flat&logo=springboot&logoColor=white)
 ![React](https://img.shields.io/badge/React-18-blue?style=flat&logo=react&logoColor=white)
