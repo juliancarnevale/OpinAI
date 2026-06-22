@@ -40,7 +40,7 @@ opinai:
   gemini:
     api-key: ${GEMINI_API_KEY:mock-api-key-for-testing}
     url: https://generativelanguage.googleapis.com/v1beta
-    model: gemini-2.5-flash
+    model: ${GEMINI_MODEL:gemini-2.5-flash}
     timeout-ms: 15000
 
 # Documentación OpenAPI / Swagger
