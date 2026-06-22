@@ -1,7 +1,6 @@
 # OpinAI - Plataforma SaaS de Analíticas de Feedback con Inteligencia Artificial
 
 <!-- Badges -->
-[![Java CI con Maven](https://github.com/<username>/<repo-name>/actions/workflows/backend.yml/badge.svg)](https://github.com/<username>/<repo-name>/actions/workflows/backend.yml)
 ![Java 21](https://img.shields.io/badge/Java-21-orange?style=flat&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.0-brightgreen?style=flat&logo=springboot&logoColor=white)
 ![React](https://img.shields.io/badge/React-18-blue?style=flat&logo=react&logoColor=white)
@@ -49,16 +48,17 @@ OpinAI se desarrolló como un proyecto de portafolio profesional para simular un
 ## Capturas de Pantalla
 
 ### 📊 Panel de Control Analítico (Dashboard)
-![Panel Analítico](docs/screenshots/dashboard.png)
-
-### 📁 Gestión de Proyectos
-![Listado de Proyectos](docs/screenshots/projects.png)
+<img width="943" height="905" alt="opinai7" src="https://github.com/user-attachments/assets/3e016d9f-cd66-4a02-8b50-3aef77a05704" />
 
 ### 🔍 Detalle del Análisis de Sentimientos
-![Detalle del Análisis](docs/screenshots/analysis.png)
+<img width="965" height="832" alt="Opinai2" src="https://github.com/user-attachments/assets/f63ecb66-b085-4df9-9d2f-d6a63beabb2e" />
+<img width="953" height="845" alt="opinai3" src="https://github.com/user-attachments/assets/8afbd313-15fd-4eeb-bb98-594aa8076b02" />
 
 ### 📄 Exportación de Reportes PDF/CSV
-![Exportación de Reportes](docs/screenshots/report.png)
+<img width="960" height="550" alt="opinai8" src="https://github.com/user-attachments/assets/001fbfa3-d25e-42fe-88ee-970547a719de" />
+<img width="671" height="545" alt="opinai9" src="https://github.com/user-attachments/assets/3482f102-5b9d-4b07-a9ca-8b9e6ae18ba6" />
+<img width="671" height="590" alt="opinai10" src="https://github.com/user-attachments/assets/a4819e4e-7010-4d9b-8cae-7e69f67989e5" />
+
 
 ---
 
