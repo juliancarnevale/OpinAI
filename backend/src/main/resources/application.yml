@@ -1,0 +1,75 @@
+spring:
+  application:
+    name: opinai-backend
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/opinai
+    username: opinai_user
+    password: opinai_password
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: validate # Dejamos la creación y alteración del esquema a Flyway
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc:
+          lob:
+            non_contextual_creation: true
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+
+# Configuración del servidor
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+
+# Configuración personalizada de Seguridad / JWT e IA
+opinai:
+  jwt:
+    # Clave de firma HS256 generada para desarrollo (debe ser de al menos 256 bits / 32 bytes)
+    secret: ${JWT_SECRET:407A467232753778377A3979244226452948404D635166546A576E5A72347537}
+    expiration-ms: 86400000 # 24 horas en milisegundos
+  gemini:
+    api-key: ${GEMINI_API_KEY:mock-api-key-for-testing}
+    url: https://generativelanguage.googleapis.com/v1beta
+    model: gemini-2.5-flash
+    timeout-ms: 15000
+
+# Documentación OpenAPI / Swagger
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+    tags-sorter: alpha
+
+# Configuración de Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      show-details: when_authorized
+      show-components: always
+
+# Configuración de Logging
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%X{correlationId}] %-5level %logger{36} - %msg%n"
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+    org.hibernate.SQL: DEBUG # Muestra las queries SQL ejecutadas
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE # Muestra los parámetros en las queries SQL

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Estilos de fuente globales opcionales o personalizaciones de variables de tema */
+@layer base {
+  body {
+    @apply bg-slate-900 text-slate-100 antialiased font-sans;
+  }
+}
