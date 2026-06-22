@@ -73,12 +73,10 @@ OpinAI was developed as a professional portfolio project to simulate a productio
 <img width="943" height="905" alt="opinai7" src="https://github.com/user-attachments/assets/d88b3b03-616a-4212-8759-abb21a076653" />
 
 
-### 📁 Tenant Projects
-<img width="960" height="905" alt="opinai4" src="https://github.com/user-attachments/assets/1274f53d-a670-4c3e-b034-a550d260cb62" />
-
-
 ### 🔍 Sentiment Analysis Details
 <img width="965" height="832" alt="Opinai2" src="https://github.com/user-attachments/assets/1a00d854-0349-4bda-b9a2-bb9fb6cb3f8f" />
+
+<img width="960" height="905" alt="opinai4" src="https://github.com/user-attachments/assets/1274f53d-a670-4c3e-b034-a550d260cb62" />
 
 
 ### 📄 Report Downloads & History
