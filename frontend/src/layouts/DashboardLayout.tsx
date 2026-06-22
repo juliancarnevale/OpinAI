@@ -113,7 +113,7 @@ const DashboardLayout: React.FC = () => {
       {isSidebarOpen && (
         <div
           onClick={() => setIsSidebarOpen(false)}
-          className="fixed inset-0 z-30 bg-black/50 md:hidden"
+          className="fixed inset-0 z-30 bg-black/50 md:hidden md:pointer-events-none md:bg-transparent"
         />
       )}
 
